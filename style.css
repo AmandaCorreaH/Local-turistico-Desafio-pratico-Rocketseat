@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #F5F4F0;
+    font-family: 'open-sans', sans-serif;
+}
+
+#app{
+    max-width: 1280px;
+    margin:auto;
+    padding: 88px 80px;
+}
+
+img{
+    border-radius: 28px;
+    width: 1120px;
+}
+
+span{
+ color: #E1624F;
+ font-weight: bold;
+}
+
+main{
+    width: 1120px;
+}
+
+.meet-main h1{
+    color: #1b1b1b;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.meet-main p {
+    font-style: italic;
+    text-align: center;
+    color: #333333;
+}
+
+.discover-places{
+    margin-top: 100px;
+}
+
+.discover-places h2{
+    color: #1B1B1B;
+    font-size: 32px;
+}
+
+.discover-places p{
+    margin-top: 8px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.place img{
+    margin-top: 48px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.description h3{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 28px;
+    color: #1B1B1B;
+}
+
+.description p {
+    color: #333333;
+    font-weight: 400;
+}
+
+.list{
+    margin-top: 20px;
+    color: #1B1B1B;
+}
+
+.list p{
+    font-weight: bold;
+}
+
+ul li:nth-child(1) {
+    color: #591B98;
+    font-weight: bold;
+}
+ul li:nth-child(2) {
+    color: #E5245E;
+    font-weight: bold;
+}
+ul li:nth-child(3) {
+    color: #E95E10;
+    font-weight: bold;
+}
+
+.about-busan{
+    margin-top: 80px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 65px;
+    text-align: center;
+}
+
+footer img{
+    width: 20px;
+    vertical-align: middle;
+}
