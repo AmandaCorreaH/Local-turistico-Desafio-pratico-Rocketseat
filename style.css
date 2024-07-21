@@ -74,24 +74,34 @@ main{
     font-weight: 400;
 }
 
-.list{
+.list p{
+    font-weight: bold;
+    color: #1b1b1b;
+}
+
+.list ul li{
+    font-weight: bold;
+    color: #0C51A7;
+}
+
+.list-park{
     margin-top: 20px;
     color: #1B1B1B;
 }
 
-.list p{
+.list-park p{
     font-weight: bold;
 }
 
-ul li:nth-child(1) {
+.list-park ul li:nth-child(1) {
     color: #591B98;
     font-weight: bold;
 }
-ul li:nth-child(2) {
+.list-park ul li:nth-child(2) {
     color: #E5245E;
     font-weight: bold;
 }
-ul li:nth-child(3) {
+.list-park ul li:nth-child(3) {
     color: #E95E10;
     font-weight: bold;
 }
